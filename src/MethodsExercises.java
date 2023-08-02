@@ -56,13 +56,13 @@ public class MethodsExercises {
                 System.out.println("The grade: " + userGrade + " is an A-");
             }else if (userGrade >= 86) {
                 System.out.println("The grade: " + userGrade + " is an B+");
-            } else if (userGrade >= 82) {
+            } else if (userGrade >= 84) {
                 System.out.println("The grade: " + userGrade + " is an B");
             }else if (userGrade >= 80) {
                 System.out.println("The grade: " + userGrade + " is an B-");
-            }else if (userGrade >= 76) {
+            }else if (userGrade >= 78) {
                 System.out.println("The grade: " + userGrade + " is an C+");
-            } else if (userGrade >= 70) {
+            } else if (userGrade >= 74) {
                 System.out.println("The grade: " + userGrade + " is an C");
             }else if (userGrade >= 67) {
                 System.out.println("The grade: " + userGrade + " is an C-");
