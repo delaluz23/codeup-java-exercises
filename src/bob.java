@@ -10,9 +10,9 @@ public class bob {
         } else if (userInput.contains("!")){
             System.out.println("Bob says: \"Whoa, chill out!\"");
         } else if (userInput.length()==0) {
-            System.out.println("Fine. Be that way!");
+            System.out.println("Bob says: \"Fine. Be that way!\"");
         } else {
-            System.out.println("Whatever");
+            System.out.println("Bob says: \"Whatever\"");
         }
     }
 }
