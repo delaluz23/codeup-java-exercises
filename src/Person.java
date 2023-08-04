@@ -15,7 +15,7 @@ public class Person {
     //other methods
 
     public void sayHello(){
-        System.out.println("Hello, " + name + "!");
+        System.out.println("Hello, " + this.name + "!");
     }
 
     public static void main(String[] args) {
