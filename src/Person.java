@@ -5,12 +5,13 @@ public class Person {
     public Person(String name){
         this.name = name;
     }
+
     //getters and setters
     public String getName(){
         return this.name;
     }
-    public void setName(String name){
-        this.name = name;
+    public String setName(String name){
+       return this.name = name;
     }
     //other methods
 
@@ -19,11 +20,11 @@ public class Person {
     }
 
     public static void main(String[] args) {
-        Person jose = new Person("person");
-        System.out.println(jose.name);
-        jose.setName("Jose De La Luz");
-        System.out.println(jose.name);
-        jose.sayHello();
+//        Person jose = new Person();
+//        System.out.println(jose.name);
+//        jose.setName("Jose De La Luz");
+//        System.out.println(jose.name);
+//        jose.sayHello();
 //        Person person1 = new Person("John");
 //        Person person2 = new Person("John");
 //        System.out.println(person1.getName().equals(person2.getName()));
