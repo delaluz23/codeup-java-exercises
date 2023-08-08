@@ -18,6 +18,16 @@ public class Square extends Quadrilateral {
         return this.side * this.side;
     }
 
+    @Override
+    public void setLength(double length) {
+        this.side = length;
+    }
+
+    @Override
+    public void setWidth(double width) {
+        this.side = width;
+    }
+
 //    protected double side;
 //
 //    public Square(double side) {
